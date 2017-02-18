@@ -1,0 +1,3 @@
+Pada week0, saya mendapat tugas yang menjadi permulaan perjalanan panjang di kelas Sistem Operasi.
+Saya mendaftarkan akun github,gmail untuk nantinya diregister di scele ui agar bisa masuk ke server badak ui
+Server badak ui dipakai untuk melakukan semua tutorial di kelas ini. Setelah melakukan semua registrasi,saya pun melakukan login perdana untuk mengakhiri tugas week0
