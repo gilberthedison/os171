@@ -1,0 +1,2 @@
+Pada week01, saya mulai belajar tentang proses github . Saya belajar melakukan push-pull dari local repository ke remote repository dan sebaliknya.
+Selain itu,saya juga belajar beberapa command di git seperti : mkdir,touch,cd,dan lainnya.
