@@ -1,0 +1,22 @@
+total 76
+drwxr-xr-x 18 gilbert.hedison61 StafCS 4096 Feb 18 08:37 .
+drwx--x--x  3 gilbert.hedison61 StafCS 4096 Feb 18 07:59 ..
+drwxr-xr-x  8 gilbert.hedison61 StafCS 4096 Feb 18 08:34 .git
+drwxr-xr-x  2 gilbert.hedison61 StafCS 4096 Feb 18 08:19 key
+-rw-r--r--  1 gilbert.hedison61 StafCS    0 Feb 18 08:37 lab01.txt
+drwxr-xr-x  2 gilbert.hedison61 StafCS 4096 Feb 18 08:19 log
+-rw-r--r--  1 gilbert.hedison61 StafCS    7 Feb 18 07:59 README.md
+drwxr-xr-x  2 gilbert.hedison61 StafCS 4096 Feb 18 08:25 sandbox
+drwxr-xr-x  2 gilbert.hedison61 StafCS 4096 Feb 18 08:33 week00
+drwxr-xr-x  2 gilbert.hedison61 StafCS 4096 Feb 18 08:18 week01
+drwxr-xr-x  2 gilbert.hedison61 StafCS 4096 Feb 18 08:18 week02
+drwxr-xr-x  2 gilbert.hedison61 StafCS 4096 Feb 18 08:18 week03
+drwxr-xr-x  2 gilbert.hedison61 StafCS 4096 Feb 18 08:18 week04
+drwxr-xr-x  2 gilbert.hedison61 StafCS 4096 Feb 18 08:19 week05
+drwxr-xr-x  2 gilbert.hedison61 StafCS 4096 Feb 18 08:19 week06
+drwxr-xr-x  2 gilbert.hedison61 StafCS 4096 Feb 18 08:19 week07
+drwxr-xr-x  2 gilbert.hedison61 StafCS 4096 Feb 18 08:20 week08
+drwxr-xr-x  2 gilbert.hedison61 StafCS 4096 Feb 18 08:20 week09
+drwxr-xr-x  2 gilbert.hedison61 StafCS 4096 Feb 18 08:20 week10
+drwxr-xr-x  2 gilbert.hedison61 StafCS 4096 Feb 18 08:20 xtra
+/home/fasilkom/mahasiswa/g/gilbert.hedison61/os171/week01
