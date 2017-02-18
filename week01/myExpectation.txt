@@ -1,2 +1,3 @@
 #ostutorial
 My github account = gilberthedison
+Melalui kelas Sistem Operasi, saya berharap bisa menjadi trampil dalam hal operasi sistem komputer (sehingga saya tidak hanya berkemampuan di high-level programming saja) . Saya berharap bisa memiliki kemampuan dasar sehingga bisa memahami segala komponen di dalam sistem komputer sehingga dapat menjadi bekal ilmu bagi dunia kerja nanti.
