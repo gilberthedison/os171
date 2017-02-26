@@ -1,3 +1,4 @@
 w01-170218-09-LR-About:Bash Scripting Basics,From: Youtube - https://www.youtube.com/watch?v=NSu4IWlOU7k
 w01-170218-11-LR-About:Bash Scripting Basics,from: Youtube - https://www.youtube.com/watch?v=lyaGaSwHocs
-w02-260218-08-LR-About:C++ Basics,from: Youtube- https://www.youtube.com/watch?v=Rub-JsjMhWY
+w02-170226-08-LR-About:C Basics,from: Youtube- https://www.youtube.com/watch?v=nXvy5900m3M
+w02-170226-09-LR-About:C If Condition,Switch case,For Loop from: Youtube - https://www.youtube.com/watch?v=6C0XZMiyfpw
