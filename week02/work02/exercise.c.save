@@ -1,0 +1,13 @@
+/*
+* Name: Gilbert Hedison
+* NPM: 1606893424
+* Class: C
+* Comment: Lab kali ini menambah ilmu saya di bahasa pemrograman C dan saya cukup enjoy melakukan lab ini
+*/
+#define LOOP //4
+
+#include <stdio.h>
+void main() {
+	int input = 6;
+
+		}
