@@ -1,0 +1,10 @@
+/home/fasilkom/mahasiswa/g/gilbert.hedison61/.gnupg/pubring.gpg
+---------------------------------------------------------------
+pub   4096R/F53FEC58 2017-02-20 [expires: 2017-08-19]
+uid                  Gilbert Hedison (Tutorial Week 2) <gilbert.hedison61@ui.ac.id>
+sub   4096R/683D9CEF 2017-02-20 [expires: 2017-08-19]
+
+pub   4096R/BD4AD71E 2016-09-12 [expires: 2017-03-11]
+uid                  Os Team (OSTEAM) <osteam@localhost>
+sub   4096R/937D25BA 2016-09-12 [expires: 2017-03-11]
+
