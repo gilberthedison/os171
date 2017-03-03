@@ -1,0 +1,29 @@
+Hello,this is explanation about linux booting (my own answer)!
+Saat kita menyalakan komputer LINUX ,ada dua proses utama yang terjadi,yaitu :
+boot dan startup. Boot dimulai saat kita menyalakan komputer sampai dengan inisialisasi kernel dan mulai menjalankan systemd. Lalu berlanjut ke proses startup sampai ke operational state.
+
+1.Boot
+Boot dilakukan dengan menyalakan tombol power di komputer kita,atau juga dengan melakukan restart (jika misalnya komputer sudah menyala).Langkah pertama dari proses Boot yaitu BIOS POST.BIOS POST akan menginisiasi komponen hardware dari komputer agar komputer dapat berjalan dengan betul.BIOS POST akan mengecek kemampuan dasar operasi dari hardware dan akan mencari lokasi boot sector.Boot sector pertama yang ditemukan akan diload di RAM,lalu kontrol akan dialihkan ke code yang diload dari boot sector.
+Boot sector yang terkenal dan sering digunakan saat ini adalah GRUB2.
+GRUB2 berfungsi untuk mencari operating system kernel(LINUX kernel) dan melakukan loading ke memory(dan dijalankan).
+
+Ada 3 stage yang terjadi dari program GRUB2:
+        a)Stage 1.
+        Seperti yang telah dijelaskan sebelumnya,POST akan mencari boot sector untuk diloading di RAM.Boot record di stage 1 kecil agar bisa masuk ke sektor 512-byte yang pertama di harddrive.Space yang dialokasikan untuk bootstrap code(classic generic MBR) adalah 446 bytes atau disebut juga boot.img
+        Karena boot record masih kecil,boot record juga terbatas kemampuannya sehingga stage 1 ini hanyalah persiapan untuk meload stage selanjutnya yaitu stage 1.5 .
+        b)Stage 1.5
+        Stage ini bermulai setelah dilakukan loading stage ini di RAM.Stage ini harus berlokasi di space antara boot record dan first partition di disk drive.Stage 1.5 memiliki space yang lebih besar dibandingkan stage 1 sehingga bisa mewadahi kode lebih banyak.
+        Fungsi stage 1.5 adalah untuk mengeksekusi filesystem drivers yang diperlukan untuk menemukan file-file stage 2 di/boot filesystem dan meload drivers yang dibutuhkan.
+	c)Stage 2
+	Pada stage ini,GRUB2 tidak lagi memiliki image file tapi menggunakan runtime kernel modules yang diload.Fungsi dari stage ini adalah untuk menemukan dan meload kernel LINUX ke RAM dan mengalihkan kontrol ke kernel tersebut.
+	
+	Setelah kernel mulai dieksekusi,ia harus diekstrak terlebih dahulu dari bentuk compressed sebelum bis mulai beroperasi.Setelah diekstrak,kernel akan meload systemd dan mengalihkan kontrol ke systemd
+
+2.Startup
+Systemd menjadi induk segala proses yang membawa host LINUX ke state aktif siap pakai.Pertama,systemd akan mount(memberi akses ke sistem) filesystems yang ada di /etc/fstab .Systemd dapat melakukan konfigurasi di /etc tersebut. Systemd akan mulai mengakses target file . Dua target file yang menjadi checkpoint yaitu sysinit.target lalu berlanjut ke basic.target
+Setiap checkpoint memiliki syarat-syarat yang harus dipenuhi dulu sebelum bisa diakses dan berlanjut.
+Setelah melewati dua checkpoint tersebut,systemd akan menginisasi user-level target yaitu multi-user.target atau graphical.target ,ketika target ini sudah dicapai maka startup sudah selesai.
+Jika defaultnya multi-user.target, maka akan muncul text mode login di konsol. Sementara jika defaultnya graphical.target,maka akan muncul tampilan login grafis.
+
+
+Reference Source: https://opensource.com/article/17/2/linux-boot-and-startup
