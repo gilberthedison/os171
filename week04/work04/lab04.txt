@@ -1,0 +1,30 @@
+1a)Perbedaannya yaitu global variable memiliki alamat yang lebih pendek (hanya 6 bit) sementara local variable memiliki lebih banyak (12 bit). Untuk code,perbedannya
+adalah gloval variable dideklarasikan di luar main function sementara local variable dideklarasikan di dalam.
+Selain itu untuk output,perbedaannya adalah jika global variable maka output yang mencetak address akan sama,sementara jika local variable maka akan berubah. 
+
+1b)Penempatan global variable di memory lebih dulu daripada local variable sehingga alamat adressnya lebih pendek (lalu akan naik nilainya)
+dan memang sudah ditentukan posisinya oleh compiler. 
+ Sementara local variable membuat alamat dengan stacking sehingga nilainya akan mulai dari yang paling tinggi lalu menurun.
+
+1c)Alamat dari global variable dan local variable tidak akan pernah bertemu karena sudah dialokasikan space di antara mereka.
+
+2a)Parameter flag yang digunakan pertama-tama digunakan yaitu O_RDWR dimana user dapat membaca dan juga menulis di file tersebut. Berikutnya dibuka file 2 dengan parameter flag yang sama seperti sebelumnya,dan seterusnya untuk file berikutnya. Terdapat juga argumen lain yaitu O_CREAT dimana akan dibuat file jika file sebelumnya tidak ada.
+
+2b)Parameter mode yang digunakan untuk file1 adalah S_IRWXU dimana user(owner) dapat membaca,menulis,dan mengeksekusi file tersebut.
+Berikutnya,file2 dibuka dengan mode S_IRWXU seperti sebelumnya dan S_IRGRP (group hanya dapat membaca file)atau S_IWGRP(group hanya dapat menulis file) dan S_IROTH(other users hanya dapat membaca file)
+
+2c)	- Argumen O_CREAT hanya optional ,sementara argumen O_RDONLY,O_WRONLY,atau O_RDWR wajib ada salah satunya di parameter flag.
+	-Menulis mode bisa menggunakan octal representation yaitu seperti : 700,040 ,dll.
+	-Open tidak dapat mengubah mode.
+	-Saat menggunakan argumen O_CREAT harus disertai value untuk mode.
+	- Untuk membuat argumen lain dalam flag parameter ,bisa menggunakan bitwise OR yang dilambang dengan " | "
+
+Sumber referensi : https://www.classes.cs.uchicago.edu/archive/2017/winter/51081-1/LabFAQ/lab2/fileio.html
+
+3) Write program tadi pertama-tama membuka file1 dua kali di fd1 dan fd2 (nilai fd1=3 dan fd2=4 karena nilai 1,2,3 sudah untuk stdin,stdout,dan stderr. 
+Lalu mencetak nilai fd tersebut. Setelahnya,program akan melakukan write.Write berfungsi untuk menghasilkan output ke file yang dituju. 
+Format argumen dari write yaitu : write(int file descriptors,buffer,maximum bytes) .File descriptor adalah file yang ingin menjadi tempat output dihasilkan ,buffer adalah argumen untuk menaruh apa bytes yang ingin dituliskan ,dan maximum bytes untuk membatasi maksimal bytes yang dibuffer.
+
+Pada program Write,program akan membuffer "AAAXBBB" ke fd1 dan membuffer "CCC" ke fd2. Semua isi dari str1 dan str2 akan masuk karena masih dalam batas maksimal bytes.
+
+Sumber referensi : http://www.tldp.org/LDP/abs/html/io-redirection.html 
