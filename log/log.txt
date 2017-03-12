@@ -4,3 +4,5 @@ w02-170226-08-LR-About:C Basics,from: Youtube- https://www.youtube.com/watch?v=n
 w02-170226-09-LR-About:C If Condition,Switch case,For Loop from: Youtube - https://www.youtube.com/watch?v=6C0XZMiyfpw
 w03-170303-13-LR-About:Linux Boot and Startup from :https://opensource.com/article/17/2/linux-boot-and-startup
 w03-170303-14-LR-About:Linux Boot and Startup from :https://www.freedesktop.org/software/systemd/man/bootup.html
+w04-170312-14-LR-About:C Programming in Linux from :https://www.youtube.com/watch?v=dP3N8g7h8gY
+w04-170312-14-LR-About:Shell basics,echo and read from :https://www.youtube.com/watch?v=iINdaimyVds
