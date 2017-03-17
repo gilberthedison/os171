@@ -1,0 +1,35 @@
+ANALISA Gilbert hedison
+
+Malloc(size_t size) berfungsi untuk me-return void pointer yang mengalokasikan block memori , dimana size_t menunjukkan harus integer positif. 
+Penggunaan malloc saat kita mengalokasikan memori secara dinamis (tidak tahu seberapa besar memori yang dipakai)
+
+Free (memory block) berfungsi untuk medealokasikan block memori yang sebelumnya dipakai malloc kembali ke memori.
+
+Fungsi System(command/variable yang ingin dijalankan) berfungsi untuk mengecek apakah sebuah fungsi berjalan atau tidak.
+ 
+Jika error,maka system akan mereturn nilai yang tidak sama dengan nol (nilai berbeda-beda tergantung jenis compiler dan mesin komputer yang digunakan)
+Jika berjalan,maka system akan menjalankan command/char yang diinputkan.
+
+Program pertama-tama mendeklarasikan variabel yaitu : MSIZE1 s.d MSIZE6, LINE,MAXSTR serta mengimport package C yang akan digunakan
+
+Fungsi printLine hanya untuk sebagai garis batas output program (yang dibatasi dengan huruf x)
+
+Fungsi main bermulai dari deklarasi array strSYS2 dan STRSYS1 dengan size array=MAXSTR=80 .
+Program mendeklarasikan pointer chrStr yg bernilai alamat array strSYS1 indeks paling pertama. 
+Lalu, program mengambil nilai process ID dari process calling saat itu.
+Selanjutnya,program akan mencetak output "top -b -n -p<PID> | tail -5" di dalam variabel array strSYS2 dan strSYS1.
+Penjelasan : -b berarti batch mode,yang berfungsi untuk membuat top tidak menerima input 
+dan berjalan sampai iterasi -n yang ditentukan tercapai atau program dihentikan (kill). 
+-n menandakan banyaknya iterasi yang diproduksi sebelum program selesai . 
+-p menandakan monitor-PID mode agar monitor menjalankan proses. 
+Sementara tail -5 atau -1 berarti print 5 atau 1 baris terakhir mulai dari EOF
+
+Program lalu mulai membentuk kotak output berupa garis xxx,dan mulai melakukan fungsi system yang menjalankan isi dari strSYS2.
+Selanjutnya,program mulai menjalankan fungsi malloc dengan parameter mulai dari MSIZE1 dan membesar sampai dengan MSIZE6. 
+Dari hasil output dapat dilihat kalau memori yang digunakan saat MSIZE5 lebih besar dibandingkan yang lain (bahkan lebih besar dari MSIZE6). 
+Itu disebabkan karena memori yang dialokasikan juga dipakai untuk proses for loop. 
+Program lalu mencoba menjalankan loop saat memakai parameter MSIZE1.
+Di setiap menjalankan malloc,selalu diakhiri dengan free agar dapat mengembalikan memori yang terpakai. 
+Setelah selesai melakukan demo, program pun melakukan fungsi free(chrStr) untuk medealokasikan/mengembalikan memory block ke memori.
+Pada akhirnya ,fungsi printLINE menutup garis output dengan garis x.
+
