@@ -6,3 +6,6 @@ w03-170303-13-LR-About:Linux Boot and Startup from :https://opensource.com/artic
 w03-170303-14-LR-About:Linux Boot and Startup from :https://www.freedesktop.org/software/systemd/man/bootup.html
 w04-170312-14-LR-About:C Programming in Linux from :https://www.youtube.com/watch?v=dP3N8g7h8gY
 w04-170312-14-LR-About:Shell basics,echo and read from :https://www.youtube.com/watch?v=iINdaimyVds
+w05-170317-10-LR-About:Dynamic Memory Allocation from :https://www.youtube.com/watch?v=xDVC3wKjS64
+w05-170317-10-LR-About:LRU Explaination from: https://www.youtube.com/watch?v=4wVp97-uqr0
+w05-170317-11-LR-About:Page Replacement Algorithms from : https://www.youtube.com/watch?v=AD8_Pb442e8
