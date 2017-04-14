@@ -1,0 +1,21 @@
+#GITHUB Account : gilberthedison
+
+1. PID adalah process ID , yaitu nomor unik yang menyatakan identitas sebuah proses. PPID adalah parent dari PID tersebut(misal: process dengan ID=3271 
+melakukan fork() maka process dengan ID tersebut akan menjadi PPID dari child yang baru dibuat).
+getpid() berfungsi untuk me return integer yaitu nilai process ID . getppid() berfungsi untuk mereturn integer berupa nilai dari parent dari process ID.
+Sleep bergungsi untuk diam selama beberapa waktu yang telah ditentukan sebelum melanjutkan eksekusi baris berikutnya.
+Wait berfungsi untuk membuat caller dari fungsi wait untuk menunggu proses sebuah child(yang dimasukkan sebagai parameter) mati terlebih dahulu(agar tidak ada 'zombie' dari proses tersebut)
+Setelah itu barulah caller melanjutkan ekesekusi programnya.
+
+
+fork() akan mereturn 0 menandakan sebuah proses child. Jika fork() mereturn bilangan positif >0 maka artinya proses parent. Jika fork() mereturn bilangan negatif <0
+maka artinya proses fork() gagal (child gagal dibuat).
+
+2. Fungsi procStatus untuk mencetak output "L :..." yang menyatakan id proses
+tersebut beserta parent dari proses id tersebut.
+Guna wait(NULL) adalah agar sebuah child menjalankan terlebih dahulu
+eksekusi programnya sampai child tersebut mati barulah induk melanjutkan 
+eksekusi program.
+Guna fflush(NULL) adalah agar output yang dihasilkan bisa muncul satu persatu.
+(memastikan apa yang ditulis di file akan menghasilkan output yang sesuai dengan kemauan) karena bisa saja urutan dari output yang muncul tidak berurutan
+sesuai tree (karena beberapa tulisan printf ada yang disimpan di buffer bersamaan sehingga saat dikeluarkan juga bersama-sama sehingga merusak urutan keluar)
