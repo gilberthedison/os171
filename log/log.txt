@@ -9,3 +9,5 @@ w04-170312-14-LR-About:Shell basics,echo and read from :https://www.youtube.com/
 w05-170317-10-LR-About:Dynamic Memory Allocation from :https://www.youtube.com/watch?v=xDVC3wKjS64
 w05-170317-10-LR-About:LRU Explaination from: https://www.youtube.com/watch?v=4wVp97-uqr0
 w05-170317-11-LR-About:Page Replacement Algorithms from : https://www.youtube.com/watch?v=AD8_Pb442e8
+w06-160417-10-LR-About:Process Synchronization from: OSC2E-ch5
+w06-160417-11-LR-About:Process Synchronization from: OSC2E-ch5
