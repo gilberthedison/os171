@@ -1,0 +1,13 @@
+GITHUB ACCOUNT : gilberthedison
+
+Pada program 05-balap , program akan pertama kali mencetak seluruh pembalap (dengan tulisan "Pembalap siap!") lalu akan mengirimkan sinyal melalui command " sem_post(&start) sehingga fungsi bandar yang sedang menunggu melalui sem_wait(&start)dapat  melanjutkan mencetak tulisan "bandar siap!" .
+Urutan juara akan tersusun secara random.
+Pada program 03-readwrite , program akan melakukan thread writer dan reader. Writer akan mengisi buffer sementara reader akan meload buffer tersebut.`
+
+Critical section adalah segmen kode yang mengakses shared variables. Permasalahan yang muncul dari critical section yaitu:
+1.Mutual exclusion(ketika thread eksekusi di critical section,tidak ada thread lain yang bereksekusi di critcal section mereka)
+2.Progress
+3.Bounded waiting
+
+Mutex berfungsi untuk mengatur penggunaan thread di critical section sehingga semunya dapat berkeksekusi.
+Jika kita tidak menggunakan mutex , maka thread di program tidak dapat bereksekusi di critical section.
