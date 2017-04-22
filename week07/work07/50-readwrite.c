@@ -13,6 +13,8 @@
 #include "99-myutils.h"
 
 extern sem_t    mutex, db, empty, full, rmutex, wmutex;
+sem_t signal;
+sem_t signal1;
 
 #define R_REHAT 4000
 #define R_READ  2000
@@ -24,31 +26,39 @@ extern sem_t    mutex, db, empty, full, rmutex, wmutex;
 
 int reader_ID = 0;
 int writer_ID = 0;
-
 int counterWriter=0;
 int counterReader=0;
+
+
 
 void* Reader (void* a) {
    int  my_ID;
 
    sem_wait (&rmutex);
+  
    my_ID  = reader_ID++;
+   
   
    sem_post (&rmutex);
    
 
    printf   ("                        READER %d: SIAP  ******\n", my_ID);
+	
    while (TRUE) {
       printf("                        READER %d: REHAT ******\n", my_ID);
+	sem_wait(&signal);
       rehat_acak(R_REHAT);
       printf("                        READER %d: MAU  MEMBACA\n", my_ID);
       printf("                        ***** JUMLAH PEMBACA %d\n", startRead());
       printf("                        READER %d:=SEDANG==BACA\n", my_ID);
       rehat_acak(R_READ);
       printf("                        READER %d: SELESAI BACA\n", my_ID);
-	counterReader++;
       printf("                        ***** SISA PEMBACA %d\n", endRead());
-	
+	counterReader++;
+	if(counterReader==3){
+		counterReader=0;
+		sem_post(&signal1);
+	}	
    }
 }
 
@@ -56,14 +66,16 @@ void* Writer (void* a) {
    int  my_ID;
 
    sem_wait (&wmutex);
+   
    my_ID  = writer_ID++;
+   
   
 
    sem_post (&wmutex);
  
 
    printf   ("WRITER %d: SIAP  *******\n", my_ID);
-   while (TRUE&&counterReader==0) {
+   while (TRUE) {
       printf("WRITER %d: REHAT *******\n", my_ID);
       rehat_acak(W_REHAT);
       printf("WRITER %d: MAU   MENULIS\n", my_ID);
@@ -73,6 +85,11 @@ void* Writer (void* a) {
       endWrite();
       printf("WRITER %d: SELESAI NULIS\n", my_ID);
 	counterWriter++;
+	if(counterWriter==2){
+		counterWriter=0;
+		sem_post(&signal);
+	}
+  	sem_wait(&signal1);
    }
 }
 
