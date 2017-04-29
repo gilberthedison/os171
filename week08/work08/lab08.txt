@@ -1,0 +1,7 @@
+#Github account : gilberthedison
+
+Pada program 00-server,terdapat fungsi socket yang berfungsi untuk menghubungkan antar program (sehingga dapat saling mengirimkan data)
+
+Program 01-client berfungsi untuk menjalankan client side yang dikonfigurasikan dengan IP address komputer yang kita gunakan .
+
+Program 02-clisvr berfungsi untuk melakukan komunikasi antar client melalui server.

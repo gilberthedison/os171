@@ -1,0 +1,48 @@
+]0;gilbert.hedison61@cslab-25-202: ~/week08[01;32mgilbert.hedison61@cslab-25-202[00m:[01;34m~/week08[00m$ scp =[K-r ./ gilbert.hedison@badak.cs.ui.a c.id[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C6@badak.cs.ui.ac.id[A]0;gilbert.hedison61@cslab-25-202: ~/week08[01;32mgilbert.hedison61@cslab-25-202[00m:[01;34m~/week08[00m$ [C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C1@badak.cs.ui.ac.id[A]0;gilbert.hedison61@cslab-25-202: ~/week08[01;32mgilbert.hedison61@cslab-25-202[00m:[01;34m~/week08[00m$ [C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C
+[C[C[C[C[C[C [K [K:work/work08
+The authenticity of host 'badak.cs.ui.ac.id (10.119.1.2)' can't be established.
+ECDSA key fingerprint is SHA256:IhWYbBhowzls2yBciS7aixHPq09t+MchaXFZEMghSfA.
+Are you sure you want to continue connecting (yes/no)? y
+Please type 'yes' or 'no': yes
+Warning: Permanently added 'badak.cs.ui.ac.id,10.119.1.2' (ECDSA) to the list of known hosts.
+gilbert.hedison61@badak.cs.ui.ac.id's password: 
+catat-week08.txt                                0%    0     0.0KB/s   --:-- ETAcatat-week08.txt                              100%  218     0.2KB/s   00:00    
+02-clisvr                                       0%    0     0.0KB/s   --:-- ETA02-clisvr                                     100%   14KB  13.7KB/s   00:00    
+Makefile                                        0%    0     0.0KB/s   --:-- ETAMakefile                                      100%  526     0.5KB/s   00:00    
+01-client                                       0%    0     0.0KB/s   Script started on Kam 27 Apr 2017 07:17:59  WIB
+]0;gilbert.hedison61@cslab-25-202: ~/week08[01;32mgilbert.hedison61@cslab-25-202[00m:[01;34m~/week08[00m$ ./02-clisvr 9002 152.118.25.99 9002
+From jessica.naraiswari to gilbert.hedison61: Hello
+]0;gilbert.hedison61@cslab-25-202: ~/week08[01;32mgilbert.hedison61@cslab-25-202[00m:[01;34m~/week08[00m$ ./02-clisvr 9002 152.118.25.99 9002
+From jessica.naraiswari to gilbert.hedison61: Hello
+]0;gilbert.hedison61@cslab-25-202: ~/week08[01;32mgilbert.hedison61@cslab-25-202[00m:[01;34m~/week08[00m$ exit
+exit
+
+Script done on Kam 27 Apr 2017 07:21:58  WIB
+Script started on Kam 27 Apr 2017 07:11:51  WIB
+]0;gilbert.hedison61@cslab-25-202: ~/week08[01;32mgilbert.hedison61@cslab-25-202[00m:[01;34m~/week08[00m$ ls[K[Kls[K[K/sbin/ifcongi[K[K[Knfig
+eth0      Link encap:Ethernet  HWaddr ac:16:2d:11:63:9e  
+          inet addr:152.118.25.117  Bcast:152.118.25.255  Mask:255.255.255.0
+          inet6 addr: fe80::553:ca4e:ec49:7e4d/64 Scope:Link
+          UP BROADCAST RUNNING MULTICAST  MTU:1500  Metric:1
+          RX packets:15775 errors:0 dropped:0 overruns:0 frame:0
+          TX packets:5159 errors:0 dropped:0 overruns:0 carrier:0
+          collisions:0 txqueuelen:1000 
+          RX bytes:11575776 (11.5 MB)  TX bytes:526467 (526.4 KB)
+
+lo        Link encap:Local Loopback  
+          inet addr:127.0.0.1  Mask:255.0.0.0
+          inet6 addr: ::1/128 Scope:Host
+          UP LOOPBACK RUNNING  MTU:65536  Metric:1
+          RX packets:741 errors:0 dropped:0 overruns:0 frame:0
+          TX packets:741 errors:0 dropped:0 overruns:0 carrier:0
+          collisions:0 txqueuelen:1 
+          RX bytes:67885 (67.8 KB)  TX bytes:67885 (67.8 KB)
+
+]0;gilbert.hedison61@cslab-25-202: ~/week08[01;32mgilbert.hedison61@cslab-25-202[00m:[01;34m~/week08[00m$ /01-cle[K[K[K[K[K[K[K./01-client 152.118.25.116 [K[K7 9001
+Enter the message: apa kabar gilbert
+[FROM SERVER] ACK MESSAGE...
+
+]0;gilbert.hedison61@cslab-25-202: ~/week08[01;32mgilbert.hedison61@cslab-25-202[00m:[01;34m~/week08[00m$ exit
+exit
+
+Script done on Kam 27 Apr 2017 07:22:15  WIB
