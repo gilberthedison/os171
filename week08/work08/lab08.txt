@@ -1,7 +1,10 @@
 #Github account : gilberthedison
 
 Pada program 00-server,terdapat fungsi socket yang berfungsi untuk menghubungkan antar program (sehingga dapat saling mengirimkan data)
+Mengecek apakah ada argumen saat mengeksekusi program untuk melihat apakah ada port yang bisa digunakan.Melakukan fungsi socket, dan menunggu signal dari client.Bila tidak ada error, akan mencetak " ACK MESSAGE"
 
-Program 01-client berfungsi untuk menjalankan client side yang dikonfigurasikan dengan IP address komputer yang kita gunakan .
+Program 01-client berfungsi untuk menjalankan client side yang dikonfigurasikan dengan IP address komputer yang kita gunakan (sehingga dapat dihubungkan dengan server). Hasil output berupa inputan message yang diberikan dari client(di terminal dua) di terminal satu.
 
-Program 02-clisvr berfungsi untuk melakukan komunikasi antar client melalui server.
+Program 02-clisvr berfungsi untuk melakukan komunikasi antar client melalui server. Saat eksekusi pertama dari user 1 akan ada argumen null null yang menunjukkan initiating mode . Eksekusi kedua dari user berikutnya akan menggunakan argumen berupa IP user sebelumnya.
+
+
