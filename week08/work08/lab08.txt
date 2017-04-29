@@ -8,3 +8,6 @@ Program 01-client berfungsi untuk menjalankan client side yang dikonfigurasikan 
 Program 02-clisvr berfungsi untuk melakukan komunikasi antar client melalui server. Saat eksekusi pertama dari user 1 akan ada argumen null null yang menunjukkan initiating mode . Eksekusi kedua dari user berikutnya akan menggunakan argumen berupa IP user sebelumnya.
 
 
+Saat user berikutnya melanjutkan eksekusi program (melanjutkan chat) , maka sudah bukan initiating mode. Maka socket akan menungu buffer (melalui 'listen & accept') dan mengisi buffer dengan 'from username :Hello' ke socket yang saling mengikat/bind .
+
+Jika argumen dua dan tiga null,maka program digunakan sebagai terminating mode.
