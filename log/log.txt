@@ -15,3 +15,5 @@ w07-170423-10-LR-About:Process Synchronization from: OSC2E-ch5
 w07-170423-11-LR-About:Process Synchronization from: OSC2E-ch5
 w08-170429-13-LR-About:Scheduling & Sockets from : OSC2E-ch6
 w08-170429-14-LR-About:Scheduling & Sockets from : OSC2E-ch6
+w08-170506-16-LR-About:Mass storage system from : OSC2E-ch9
+w08-170506-17-LR-About:Mass storage system from : OSC2E-ch9
