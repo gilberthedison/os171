@@ -1,0 +1,15 @@
+
+ULASAN2 - FILE SYSTEM CONCEPT
+
+Pada ulasan kedua ini , saya akan mengulas mengenai File System Concept (Week 09) melalui video Youtube (https://youtu.be/anCLeogSTE0) yang dibuat oleh papercoinagevideo dengan durasi video tujuh menit tiga puluh detik. Video ini dapat dianggap sebagai semacam pendahuluan mengenai File System dimana diceritakan mengenai konsep file system.
+
+Konsep file system bermula dari adanya tujuan untuk memudahkan pencarian file dalam sebuah komputer (karena seringkali komputer memiliki data yang banyak sekali). Konsep file system memisahkan 'isi' dari komputer dalam berbagai drives seperti drive 'C' untuk file komputer kita dan drive 'D' untuk CD/DVD (Lambang drive tidak selalu oleh 'C' atau 'D' , tergantung dari jenis komputer yang dipakai)
+
+Menurut saya , video yang disajikan informatif karena menjelaskan konsep dasar dari sebuah file system komputer. Selain itu , video juga menyajikan informasi dalam bentuk kata-kata yang mudah dipahami (menggunakan analogi yang mudah dipahami dan dijelaskan secara bertahap asal mula konsep dari file system)
+
+GITHUB account : gilberthedison
+URL Ulasan : http://osgilbert.blogspot.co.id/2017/05/ulasan2-file-system-concept.html
+URL Video : https://youtu.be/anCLeogSTE0
+Pemetaan : Week 9
+Revisi pertama : 20 Mei 2017
+Revisi akhir : 20 Mei 2017
