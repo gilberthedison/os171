@@ -1,17 +1,12 @@
-ULASAN1 - Cloud Service Core Models 
+Pada ulasan pertama ini , saya (Gilbert Hedison) akan mengulas sebuah video Youtube (https://youtu.be/JOeAwigjFoY) yang berpetakan ke Week 4 . Video yang berjudulkan "Endianness Explained" dari CodeMonkeyRicky selama sembilan menit 35 detik ini menjelaskan mengenai apa itu endian di C Programming.
 
-Pada ulasan pertama ini , saya (Gilbert Hedison) akan mengulas sebuah video Youtube (https://youtu.be/eCoapK4dzGo) yang berpetakan ke Week 10 . Video yang berjudulkan "Understanding Cloud - IaaS PaaS SaaS" dari Tech Data Technical Services selama enam menit 49 detik ini menjelaskan mengenai model dasar dari cloud services.
 
-Di video yang dilampirkan (yang dijelaskan oleh Jason Conine) , dijelaskan mengenai model dasar yang dipakai dalam layanan cloud computing : IaaS  (Infrastructure as a Service), PaaS (Platform as a Service) , dan SaaS (Software as a Service) . Dalam cloud computing , terdapat tujuh hal yang menjadi Applications, Data , Runtime , Middleware , O/S , Virtualization , Servers , Storage , Networking. 
-
-IaaS memberikan akses kepada cloud computing provider untuk mengurus aspek Virtualization , Servers , Storage , Networking (sementara untuk aspek O/S terkadang ada yang diurus oleh pihak perusahaan pembeli jasa cloud computing atau juga diurus oleh provider) . Pada model PaaS , pihak perusahaan hanya mengurus aspek Applications dan Data . Sedangkan pada model SaaS, seluruh pengurusan cloud computing diserahkan kepada pihak cloud service provider.
 
 Menurut pendapat saya , video yang dilampirkan ini memiliki informasi yang lengkap dan mudah dipahami. Informasi yang diberikan juga terpercaya karena diberikan dari seorang yang bekerja sebagai consultant architect serta memiliki respon yang bagus(comment) dari pengguna di Youtube .
 
 GITHUB account : gilberthedison
-URL Ulasan : http://osgilbert.blogspot.co.id/2017/05/ulasan1-cloud-service-core-models.html
-URL Video : https://youtu.be/eCoapK4dzGo
-Video Author : Tech Data Technical Services (6:49)
-Pemetaan : week10
-Revisi pertama : 20 Mei 2017
-Revisi akhir : 20 Mei 2017
+URL Ulasan :
+URL Video : https://youtu.be/JOeAwigjFoY
+Pemetaan : week04
+Revisi pertama : 22 Mei 2017
+Revisi akhir : 22 Mei 2017
