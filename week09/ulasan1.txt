@@ -1,12 +1,13 @@
-Pada ulasan pertama ini , saya (Gilbert Hedison) akan mengulas sebuah video Youtube (https://youtu.be/JOeAwigjFoY) yang berpetakan ke Week 4 . Video yang berjudulkan "Endianness Explained" dari CodeMonkeyRicky selama sembilan menit 35 detik ini menjelaskan mengenai apa itu endian di C Programming.
+Pada ulasan pertama ini , saya akan mengulas sebuah video Youtube (https://youtu.be/JOeAwigjFoY) yang berpetakan ke Week 4 . Video yang berjudulkan "Endianness Explained" dari CodeMonkeyRicky selama sembilan menit tiga puluh lima detik ini menjelaskan mengenai apa itu Endianness.
+
+Endianness adalah cara merepresentasikan data dalam memori .Dua  cara paling sering dipakai dalam konsep Endianness yaitu : Big Endian dan Little Endian . Pada Big Endian , kita menyimpan byte yang memiliki value paling besar di smallest address. Sementara jika kita menggunakan konsep little endian maka kita akan menyimpan byte yang memiliki value terkecil  di smallest address.
 
 
-
-Menurut pendapat saya , video yang dilampirkan ini memiliki informasi yang lengkap dan mudah dipahami. Informasi yang diberikan juga terpercaya karena diberikan dari seorang yang bekerja sebagai consultant architect serta memiliki respon yang bagus(comment) dari pengguna di Youtube .
+Menurut pendapat saya , video yang dilampirkan ini memiliki informasi yang lengkap dan mudah dipahami. CodeMonkeyRicky dapat menjelaskan dengan logat dan suara yang jelas (mudah didengar) dan bahasa yang digunakan juga mudah dipahami. Penggunaan papan tulis untuk menjelaskan secara visual juga membantu dalam memahami pembelajaran mengenai topik week04 ini.
 
 GITHUB account : gilberthedison
-URL Ulasan :
+URL Ulasan :  http://osgilbert.blogspot.co.id/2017/05/ulasan-1-endianness.html
 URL Video : https://youtu.be/JOeAwigjFoY
 Pemetaan : week04
 Revisi pertama : 22 Mei 2017
-Revisi akhir : 22 Mei 2017
+Revisi akhir : 23 Mei 2017
