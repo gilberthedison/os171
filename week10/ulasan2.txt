@@ -1,15 +1,15 @@
+Pada ulasan kedua ini , saya akan mengulas sebuah video Youtube (https://youtu.be/GsbAUj71ikw) yang berpetakan ke Week 9 . Video yang berjudulkan "RAID Fundamentals - Understanding & Working with RAID" dari ittaster selama sembilan menit empat puluh detik ini menjelaskan mengenai apa itu RAID di operasi sistem.
 
-ULASAN2 - FILE SYSTEM CONCEPT
+RAID (Redundant Array of Independent Disks) yang berguna untuk menggabungkan berbagai disks untuk membuat sebuah disk yang berukuran besar .RAID membantu dalam fault tolerance dimana RAID dalam bentuk data redundancy serta meningkatkan performa kerja komputer.Dalam RAID , tiga tipe RAID yang paling sering digunakan yaitu : RAID 0 , RAID 1 , dan RAID 5 . 
 
-Pada ulasan kedua ini , saya akan mengulas mengenai File System Concept (Week 09) melalui video Youtube (https://youtu.be/anCLeogSTE0) yang dibuat oleh papercoinagevideo dengan durasi video tujuh menit tiga puluh detik. Video ini dapat dianggap sebagai semacam pendahuluan mengenai File System dimana diceritakan mengenai konsep file system.
+Dalam RAID 0 , terjadi data striping yaitu membaca sebuah file secara bersamaan melalui disk-disk yang dipakai . Kelemahan dari RAID 0 yaitu tidak memilliki fault tolerance . RAID 1 menggunakan konsep mirroring yang dapat menyediakan fault tolerance ( meskipun performa nya tidak sebaik RAID 0) . RAID 5 menggunakan konsep striping with parity dimana RAID 5 melakukan data striping dengan parity data (sehingga dapat menyediakan fault tolerance meskipun akan mengalami penurunan performa) 
 
-Konsep file system bermula dari adanya tujuan untuk memudahkan pencarian file dalam sebuah komputer (karena seringkali komputer memiliki data yang banyak sekali). Konsep file system memisahkan 'isi' dari komputer dalam berbagai drives seperti drive 'C' untuk file komputer kita dan drive 'D' untuk CD/DVD (Lambang drive tidak selalu oleh 'C' atau 'D' , tergantung dari jenis komputer yang dipakai)
+Menurut saya , informasi yang disajikan di video telah jelas dan mudah dipahami. Mudah dipahami karena author 'ittaster' menjelaskan secara bertahap dan dilengkapi dengan gambar (sehingga mudah membayangkan konsep RAID yang dijelaskan) . Author dapat menjelaskan dengan baik ciri khas dari RAID 0 , RAID 1 , dan RAID 5.
 
-Menurut saya , video yang disajikan informatif karena menjelaskan konsep dasar dari sebuah file system komputer. Selain itu , video juga menyajikan informasi dalam bentuk kata-kata yang mudah dipahami (menggunakan analogi yang mudah dipahami dan dijelaskan secara bertahap asal mula konsep dari file system)
 
 GITHUB account : gilberthedison
-URL Ulasan : http://osgilbert.blogspot.co.id/2017/05/ulasan2-file-system-concept.html
-URL Video : https://youtu.be/anCLeogSTE0
-Pemetaan : Week 9
-Revisi pertama : 20 Mei 2017
-Revisi akhir : 20 Mei 2017
+URL Ulasan :http://osgilbert.blogspot.co.id/2017/05/ulasan-2-understanding-raid-fundamentals.html
+URL Video : https://youtu.be/GsbAUj71ikw
+Pemetaan : week09
+Revisi pertama : 22 Mei 2017
+Revisi akhir : 23 Mei 2017
